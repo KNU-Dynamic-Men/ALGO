@@ -14,7 +14,7 @@
  - 공부해온 개념 리뷰
  - 문제 풀이법 및 알고리즘 공유
 → GitHub에 올린 코드를 활용해서 보기
-3. GitHub 레포지토리: https://github.com/KNU-Dynamic-Men/Study-Algorithm
+3. GitHub 레포지토리: https://github.com/KNU-Dynamic-Men/ALGO
 
 
 ### :rainbow: Contributors
@@ -30,6 +30,7 @@
 | 1주차 | [톱니바퀴](https://www.acmicpc.net/problem/14891)            | [연구소](https://www.acmicpc.net/problem/14502)              | [아기상어](https://www.acmicpc.net/problem/16236)            |                                                              |      |
 | 2주차 | [감시](https://www.acmicpc.net/problem/15683)                | [로봇청소기](https://www.acmicpc.net/problem/14503)          | [드래곤 커브](https://www.acmicpc.net/problem/15685)         | [경사로](https://www.acmicpc.net/problem/14890)              |      |
 | 3주차 | [완주하지못한선수](https://programmers.co.kr/learn/courses/30/lessons/42576) | [전화번호목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) |      |
+| 4주차 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42584) | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42584) | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42584) |      |
 
 
 
