@@ -29,7 +29,7 @@ public class Main {
 		PriorityQueue<Point> q = new PriorityQueue<>();
 		Point end = new Point(n - 1, m - 1, 0);
 		q.add(new Point(0, 0, 0));
-        visited[0][0] = true;
+		visited[0][0] = true;
 		while (!q.isEmpty()) {
 			Point cur = q.poll();
 
@@ -45,7 +45,7 @@ public class Main {
 					if (!visited[nextX][nextY]) {
 						int isbreak = map[nextX][nextY] == 1 ? cur.breakCnt + 1 : cur.breakCnt;
 						q.add(new Point(nextX, nextY, isbreak));
-                        visited[nextX][nextY] = true;
+						visited[nextX][nextY] = true;
 					}
 				} catch (Exception e) {
 				}

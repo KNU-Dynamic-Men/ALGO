@@ -31,7 +31,7 @@ public class Main {
 		}
 		for (int i = 0; i < n; i++) {
 			visited[i] = true;
-			if (BFS(i, 1)) {
+			if (DFS(i, 1)) {
 				System.out.println(1);
 				return;
 			}
@@ -40,14 +40,14 @@ public class Main {
 		System.out.println(0);
 	}
 
-	public static boolean BFS(int next, int visitCnt) {
+	public static boolean DFS(int next, int visitCnt) {
 		if (visitCnt == 5)
 			return true;
 		LinkedList<Integer> check = relationship[next].friends;
 		for (int nextFriend: check)
 			if (!visited[nextFriend]) {
 				visited[nextFriend] = true;
-				if (BFS(nextFriend, visitCnt + 1))
+				if (DFS(nextFriend, visitCnt + 1))
 					return true;
 				visited[nextFriend] = false;
 			}
