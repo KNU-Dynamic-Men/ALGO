@@ -35,8 +35,7 @@ def find(brother_log, subin):
             if brother_log[i] != -1:
                 if my_visited[i][j] <= brother_log[i] and my_visited[i][j] % 2 == brother_log[i] % 2:
                     return brother_log[i]
-                if my_visited[i][j] <= brother_log[i] and my_visited[i][j] % 2 == brother_log[i] % 2:
-                    return brother_log[i]
+
     return -1
 
 
